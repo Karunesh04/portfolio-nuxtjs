@@ -1,100 +1,145 @@
 <template>
     <div class="h-full w-[95vw] m-auto ">
-        <header class="hero">
-            <nav class="flex sm:justify-between items-center p-4">
-                <img class="w-24" src="/assets/images/K.png" alt="logo">
-                <ul
-                    class="text-base sm:text-lg lg:text-xl font-bold text-gray-500 flex flex-wrap items-center gap-6 lg:gap-12">
-                    <li class="px-2 lg:px-4">About Me</li>
-                    <li class="px-2 lg:px-4">Skills</li>
-                    <li class="px-2 lg:px-4">Projects</li>
-                    <li class="px-4 lg:px-6 hover:bg-[#A97A13] rounded-lg" style="color:white;">
-                        Contact</li>
-                </ul>
-            </nav>
-
-        </header>
+        <Header />
         <!-- Main -->
-        <main class="flex flex-col items-center justify-center text-center p-6">
+        <main class="flex flex-col items-center justify-center text-center p-6 mt-8">
             <img class="w-40 h-40 shadow-xl shadow-[#A97A13] rounded-full mb-6" src="/assets/images/profile.png"
                 alt="profile">
             <h2 class="text-2xl sm:text-3xl lg:text-6xl mt-5 font-bold text-[#A97A13] mb-4">
                 Hello! I'm Karunesh :)
             </h2>
 
-            <p class="mt-5 text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl leading-relaxed">
+            <p class="mt-5 text-lg sm:text-xl lg:text-2xl text-gray-500 text-justify max-w-4xl leading-relaxed">
                 Aspiring software developer with MERN stack expertise and experience in building full-stack
                 applications.
                 Skilled in data structures, algorithms, and a strong academic background. A team player, eager to
                 contribute
                 and grow in software development.
             </p>
-            <a class="mt-16 resume-button"
+            <a class="mt-16 inline-flex items-center gap-2 text-white text-lg bg-[#A97A13] p-4 rounded-2xl resume-button"
                 href="https://drive.google.com/file/d/1ek3cMaZtCv-7KYPwGll-VMnp9_FW1ZII/view?usp=drive_link"
                 target="_blank">
-                <img class="resume-icon" src="/assets/images/file.png" alt="file">
-                Resume
+                <img class="icon w-8" src="/assets/images/file.png" alt="file">
+                View My Resume
             </a>
         </main>
-        <!-- Skills -->
-        <section class="flex items-center just text-center">
-            <h2 class="text-2xl sm:text-3xl lg:text-6xl mt-5 font-bold text-[#A97A13] mb-4">Skills</h2>
-        </section>
-        <footer class="sticky top-full flex items-center text-gray-500 border-t-2 border-gray-500">
-            <img class="w-20" src="/assets/images/K.png" alt="logo">
-            <p class="text-sm sm:text-base lg:text-lg font-medium ml-4">
-                &copy; 2024 Karunesh -
-                <a class="text-blue-400" target="_blank" href="https://karunesh04.netlify.app/">@karufolio</a>
+        <!-- About -->
+        <section class="py-16 px-4 max-w-4xl mx-auto mt-6 ">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#A97A13] text-center mb-8">
+                About Me
+            </h2>
+
+            <p class="text-lg sm:text-xl lg:text-2xl text-gray-500 text-justify mb-6">
+                Hello! I’m Karunesh, a passionate full-stack web developer with a strong interest in creating dynamic
+                and user-friendly web applications. With a Master’s degree in Computer Applications, I have developed a
+                solid foundation in both frontend and backend technologies.
             </p>
-            <div class="ml-auto mr-4 flex justify-center gap-4">
-                <a target="_blank" href="https://www.linkedin.com/in/karunesh04/">
-                    <img class="w-8" src="/assets/images/linkedin-svgrepo-com.svg" alt="">
-                </a>
-                <a target="_blank" href="https://github.com/Karunesh04">
-                    <img class="w-8" src="/assets/images/github-142-svgrepo-com.svg" alt="">
-                </a>
+
+            <h3 class="text-2xl sm:text-3xl font-semibold text-[#A97A13] mb-4">
+                My Journey
+            </h3>
+            <p class="text-lg sm:text-xl text-gray-500 text-justify mb-4">
+                My journey into web development began with a curiosity about how websites work and a desire to bring
+                ideas to life through code. Over the years, I have honed my skills in various programming languages and
+                frameworks, including:
+            </p>
+            <ul class="list-disc list-inside text-lg sm:text-xl text-gray-500 mb-6">
+                <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Vue.js, Tailwind CSS</li>
+                <li><strong>Backend:</strong> Node.js, Express, MongoDB, PHP, MySQL</li>
+                <li><strong>Tools:</strong> Git, GitHub, Postman, Canva</li>
+            </ul>
+
+            <p class="text-lg sm:text-xl text-gray-500 mb-6">
+                When I’m not coding, you can find me exploring the latest tech trends, working on personal projects, or
+                contributing to open-source communities. I’m always open to new opportunities, collaborations, and
+                learning experiences.
+            </p>
+            <p class="text-lg sm:text-xl text-gray-500">
+                Feel free to reach out if you’d like to connect!
+            </p>
+        </section>
+        <!-- Skills -->
+        <section id="skills" class="py-10 max-w-4xl mx-auto text-gray-500">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#A97A13] text-center mb-8">
+                    Skills
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+
+                    <!-- Skill Item -->
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/html-svgrepo-com.svg" alt="HTML" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">HTML</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/css-svgrepo-com.svg" alt="CSS" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">CSS</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/javascript-svgrepo-com.svg" alt="JavaScript" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">JavaScript</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/react-svgrepo-com.svg" alt="React" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">React</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/nodejs-icon-svgrepo-com.svg" alt="Node.js" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">Node.js</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/mongo-svgrepo-com.svg" alt="MongoDB" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">MongoDB</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/github-142-svgrepo-com.svg" alt="Git" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">Git</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <img src="/assets/images/tailwind-svgrepo-com.svg" alt="Tailwind" class="w-16 h-16 icon">
+                        <p class="mt-2 text-lg font-semibold">Tailwind CSS</p>
+                    </div>
+
+                </div>
             </div>
-        </footer>
+        </section>
+
+        <!-- Projects -->
+        <!-- Contact -->
+        <Footer />
 
     </div>
 </template>
 
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+    layout: "default",
+})
+</script>
 
 <style scoped>
-li:hover {
-    color: #A97A13;
-    cursor: pointer;
-    transition-duration: 1s;
-}
-
-/* Style for the button */
 .resume-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    font-size: 1rem;
-    background: #A97A13;
-    padding: 12px 15px;
-    border-radius: 10px 12px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.icon {
     transition: transform 0.3s ease;
 }
 
-/* Style for the image icon */
-.resume-icon {
-    width: 1.5rem;
-    transition: transform 0.3s ease;
-}
-
-/* Zoom effect on hover */
 .resume-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background: #916b12;
 }
 
-/* Optional: Zoom effect for the icon separately */
-.resume-icon:hover {
-    transform: scale(1.2);
+.icon:hover {
+    transform: scale(1.1);
 }
 </style>
