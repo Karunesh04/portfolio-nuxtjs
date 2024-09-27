@@ -69,7 +69,7 @@ Explore the different sections of the portfolio to learn more about my skills, v
 
 ## Published Portfolio
 
-You can view my published portfolio at: [Your Published Portfolio Link](https://your-portfolio-url.com)
+You can view my published portfolio at: [https://karunesh.vercel.app/](https://karunesh.vercel.app/)
 
 
 
