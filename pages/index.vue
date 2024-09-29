@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-col items-center justify-center text-center p-4 my-8">
+    <main class="flex flex-col items-center justify-center text-center p-4 my-16">
         <img class="w-40 h-40 shadow-xl shadow-[#A97A13] rounded-full mb-6" src="/static/images/profile.png"
             alt="profile">
         <h2 class="text-2xl sm:text-3xl lg:text-6xl mt-5 font-bold text-[#A97A13] mb-4">

@@ -1,5 +1,5 @@
 <template>
-  <footer class="sticky h-full flex items-center text-gray-500 border-t-2 border-gray-500">
+  <footer class="sticky t-full flex items-center text-gray-500 border-t-2 border-gray-500">
     <img class="w-20" src="/static/images/K.png" alt="logo">
     <p class="text-sm sm:text-base lg:text-lg font-medium ml-4">
       &copy; 2024 Karunesh

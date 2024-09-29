@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full w-[95vw] m-auto">
+    <div class="h-full w-[95vw] mx-auto">
         <Header />
 
         <main>

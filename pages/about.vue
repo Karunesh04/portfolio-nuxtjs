@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 py-6 max-w-4xl mx-auto mb-8">
+  <section class="px-4 py-6 max-w-4xl mx-auto mb-16">
     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#A97A13] text-center mb-8">
       About Me
     </h2>
