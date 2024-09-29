@@ -1,31 +1,31 @@
 <template>
-  <section id="contact" class="p- mb-16 text-[#A97A13] rounded-xl">
+  <section id="contact" class="py-6 mb-16 text-[#A97A13] rounded-xl">
     <div class="container mx-auto max-w-4xl px-4">
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#A97A13] text-center mb-8">
-      Contact Me
-    </h2>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#A97A13] text-center mb-16">
+        Contact Me
+      </h2>
       <div class="flex flex-col md:flex-row justify-around items-center text-center space-y-8 md:space-y-0 md:space-x-8">
         
         <div class="flex flex-col items-center">
-          <img src="/static/images/location-arrow-svgrepo-com.svg" alt="Location" class="w-10 mb-2 icon">
+          <img src="/static/images/location-arrow-svgrepo-com.svg" alt="Location" class="w-8 mb-2 icon">
           <p class="text-lg font-semibold">Location</p>
           <p class="text-gray-500">New Delhi, India</p>
         </div>
 
         <div class="flex flex-col items-center">
-          <img src="/static/images/email-svgrepo-com.svg" alt="Email" class="w-10 mb-2 icon">
+          <img src="/static/images/email-svgrepo-com.svg" alt="Email" class="w-8 mb-2 icon">
           <p class="text-lg text-#A97A13 font-semibold">Email</p>
           <p class="text-gray-500">karunesh@gmail.com</p>
         </div>
 
         <div class="flex flex-col items-center">
-          <img src="/static/images/phone-calling-svgrepo-com.svg" alt="Phone" class="w-10 mb-2 icon">
+          <img src="/static/images/phone-calling-svgrepo-com.svg" alt="Phone" class="w-8 mb-2 icon">
           <p class="text-lg font-semibold">Phone</p>
           <p class="text-gray-500">+91 12345 67890</p>
         </div>
       </div>
 
-      <form class="mt-12 space-y-6">
+      <form class="mt-12 space-y-6 px-6 md:px-8">
 
         <div class="flex flex-col">
           <label for="name" class="text-lg font-semibold mb-2">Your Name</label>
