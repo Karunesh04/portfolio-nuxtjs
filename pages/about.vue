@@ -7,7 +7,7 @@
     <p class="text-lg sm:text-xl lg:text-2xl text-gray-500 text-justify mb-6">
       Hello! I’m Karunesh, a passionate <span class="text-[#A97A13]">full-stack web developer</span> with a strong
       interest in creating dynamic
-      and user-friendly web applications. With a Master’s degree in Computer Applications, I have developed a
+      and user-friendly web applications. With a Master’s degree in <span class="text-[#A97A13]">Computer Applications</span>, I have developed a
       solid foundation in both frontend and backend technologies.
     </p>
 
